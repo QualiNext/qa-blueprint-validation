@@ -17,7 +17,7 @@ grains:
         store: asaf-assets
         path: test
       host:
-        name: eks-asaf3
+        name: asaf-eks
       inputs:
         - acl: private
         - name: 'asaf-test-bucket-1-s3-{{ sandboxid | downcase }}'
