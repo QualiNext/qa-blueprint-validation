@@ -15,7 +15,7 @@ grains:
     spec: 
       source:
         store: asaf-assets
-        path: test
+        path: s3
       host:
         name: asaf-eks
       inputs:
