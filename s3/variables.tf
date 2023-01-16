@@ -26,8 +26,3 @@ variable "user" {
     description = "Username to assign permissions for S3 bucket to. If left blank, will not create permissions."
     default = "none"
 }
-
-variable "test" {
-    description = "Double slash test"
-    default = "wubba labba "
-}
