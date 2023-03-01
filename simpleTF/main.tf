@@ -1,5 +1,5 @@
 output "message" {
-  value = "ahlan wasahlan"
+  value = "ahlan"
  
 }
 
