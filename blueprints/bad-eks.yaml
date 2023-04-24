@@ -15,7 +15,7 @@ grains:
     spec: 
       source:
         path: https://github.com/QualiNext/qa-blueprint-validation.git//terraform
-      host:
+      agent:
         name: bp-validation2
       inputs:
         - region: us-west-1
@@ -29,7 +29,7 @@ grains:
     spec: 
       source:
         path: https://github.com/QualiNext/qa-blueprint-validation.git//terraform
-      host:
+      agent:
         name:
       inputs:
         - region: us-west-1

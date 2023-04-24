@@ -3,7 +3,7 @@ description: Simple s3 buckets provisioning
 
 # test
 inputs:
-  host:
+  agent:
     type: string
     display-style: normal
     description: "compute service"
@@ -20,7 +20,7 @@ grains:
     spec: 
       source:
         path: https://github.com/QualiNext/qa-blueprint-validation.git//terraform
-      host:
+      agent:
         name: '{{.inputs.host}}'
       inputs:
         - region: us-west-1

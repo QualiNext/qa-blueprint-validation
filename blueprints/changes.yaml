@@ -16,7 +16,7 @@ grains:
       source:
         store: asaf-assets
         path: s3
-      host:
+      agent:
         name: asaf-eks
       inputs:
         - acl: private

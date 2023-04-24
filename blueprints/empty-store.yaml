@@ -11,7 +11,7 @@ grains:
     spec: 
       source:
         store:
-      host:
+      agent:
         name: eks-asaf
       inputs:
         - region: us-west-1

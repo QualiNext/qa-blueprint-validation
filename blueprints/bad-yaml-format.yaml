@@ -8,7 +8,7 @@ grains:
     spec: 
       source:
         path: https://github.com/QualiNext/qa-blueprint-validation/tree/master/terraform
-      host:
+      agent:
         name: eks
       inputs:
         - region: us-west-1
