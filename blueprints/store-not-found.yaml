@@ -15,7 +15,7 @@ grains:
       source:
         store: wrong-store
       agent:
-        name: '{{ .inputs.host }}'
+        name: '{{ .inputs.agent }}'
       inputs:
         - region: us-west-1
         - acl: private
